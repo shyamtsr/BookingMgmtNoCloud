@@ -1,0 +1,9 @@
+
+
+SQL_GET_BOOKING_DETAILS: Select *From Ticket Where Ticket_id= :ticketId
+
+SQL_GET_ALL_BOOKING_DETAILS: Select *from Ticket
+
+SQL_GET_BOOKINGID_COUNT: SELECT COUNT(*) FROM Ticket WHERE ticket_id=? 
+
+SQL_UPDATE_TICKETBOOKING: UPDATE Ticket SET passenger_name=?,email=?,source_station=?,destination_station=? WHERE ticket_id=?
